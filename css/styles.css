@@ -355,7 +355,6 @@ width: calc((100% - 90px) / 4);
     fill: var(--white-color);
 }
 .client-list{
-    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -538,13 +537,13 @@ footer h3{
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    margin-bottom: 94px;
 }
 
 .main-images li {
     width: calc((100% - 60px) / 3);
 }
-.main-images li:hover, .main-images li:focus{
+.main-images a:hover, .main-images a:focus{
+    display: block;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .main-images li:nth-child(3n) {
